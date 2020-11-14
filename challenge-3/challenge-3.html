@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scisor</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="challenge-3.css" />
+  </head>
+  <script src="script.js"></script>
+  <body>
+    <div class="container-3">
+      <div><h1>Challenge-3:rock paper scissor</h1></div>
+      <div>
+        <button
+          id="refresh"
+          class="btn btn-danger"
+          onClick="window.location.reload();"
+        >
+          RePlay
+        </button>
+      </div>
+      <div class="flex-box-container-3" id="boxer-content">
+        <img
+          id="rock"
+          src="source/rock.png"
+          onclick="gaming(this)"
+          alt="rock"
+        />
+        <img
+          id="paper"
+          src="source/paper.png"
+          onclick="gaming(this)"
+          alt="paper"
+        />
+        <img
+          id="scissor"
+          src="source/scissor.png"
+          onclick="gaming(this)"
+          alt="Scissor"
+        />
+      </div>
+    </div>
+  </body>
+</html>

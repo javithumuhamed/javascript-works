@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Button-color-changer</title>
+    <link rel="stylesheet" href="challenge-4.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="container-4">
+      <h2>Challenge 4:Color changer</h2>
+      <div class="flex-box-container-4">
+        <form action="">
+          <select
+            name="back"
+            id="background"
+            onchange="buttonColorChange(this)"
+          >
+            <option value=""></option>
+            <option value="red">red</option>
+            <option value="green">green</option>
+            <option value="random">random</option>
+            <option value="reset">reset</option>
+          </select>
+        </form>
+
+        <button class="btn btn-success">Yahoo</button>
+        <button class="btn btn-danger">wee</button>
+        <button class="btn btn-primary">google</button>
+        <button class="btn btn-warning">facebook</button>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

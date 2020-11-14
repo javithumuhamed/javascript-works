@@ -1,0 +1,31 @@
+.flex-box-container-2 {
+  display: flex;
+  padding: 10px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border: 1px solid dodgerblue;
+  align-items: center;
+}
+.flex-box-container-2 div {
+  padding: 10px solid black;
+  justify-content: space-around;
+  border: 1px solid black;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.container-2 {
+  width: 75%;
+  border: 1px solid orangered;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.flex-box-container-2 img {
+  box-shadow: 4px grey;
+  box-shadow: 4px 10px 38px 6px rgba(0, 0, 0, 0.75);
+
+  margin: 20px;
+}
+body {
+  background-color: aqua;
+}
